@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h2>Contact</h2>
+  <p>please do not hesitate to ask any questions</p>
+  <ul>
+    <li style="list-style-type:circle;"><strong>Mobile:</strong> 01001759371</li>
+    <li style="list-style-type:square;"><strong>Email:</strong> mtoubar1@gmail.com</li>
+    <li style="list-style-type:disc;"><strong>Facebook:</strong> Mohamed Elsayed Toubar</li>
+  </ul>
+  <map name="infographic">
+    <area shape="poly" coords="130,147,200,107,254,219,130,228" href="https://developer.mozilla.org/docs/Web/HTML" target="_blank" alt="HTML" />
+    <area shape="poly" coords="130,147,130,228,6,219,59,107" href="https://developer.mozilla.org/docs/Web/CSS" target="_blank" alt="CSS" />
+    <area shape="poly" coords="130,147,200,107,130,4,59,107" href="https://developer.mozilla.org/docs/Web/JavaScript" target="_blank" alt="JavaScript" />
+  </map>
+  <img usemap="#infographic" src="mdn-info2.png" alt="MDN infographic" />
+
+  <div class="application">
+    <form class="Contact-Form" action="index.html" method="post">
+      <label for="first-name">First Name : </label>
+      <input type="text" name="first-name" id="first-name" value="" required>
+      <br>
+      <label for="last-name">Last Name : </label>
+      <input type="text" name="last-name" id="last-name" value="" required>
+      <br>
+      <label>Choose your Gender :</label>
+      <br>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="Male" required>
+      <label for="femail">Femail</label>
+      <input type="radio" name="gender" id="femail" value="Femail" required>
+      <label for="other">Other</label>
+      <input type="radio" name="gender" id="other" value="Other" required>
+      <br>
+      <label for="birth-date">Enter your Birthday : </label>
+      <input type="date" name="birthday" id="birth-date" value="" max="2010-12-30" min="1995-01-01" required>
+      <br>
+      <label for="email">Type a valid email :</label>
+      <input type="email" name="email" id="email" value="" placeholder="someone@gmail.com" spellcheck="true" required>
+      <br>
+      <label for="mobile">Enter you phone number :</label>
+      <input type="tel" name="telNo" id="mobile" value="" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}">
+      <br>
+      <label for="CV">Upload your CV :</label>
+      <input type="file" name="CV" id="CV" value="" accept="application/pdf" required>
+      <br>
+      <input type="checkbox" name="agree" id="agree" value="" required>
+      <label for="agree">I hereby confirm that the information provided is true</label>
+      <br>
+      <input type="submit" name="submit" value="Submit">
+    </form>
+  </div>
+</body>
+
+</html>
