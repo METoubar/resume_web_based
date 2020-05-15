@@ -1,0 +1,18 @@
+body{
+  background-color: #63b7af;
+}
+hr{
+  border-style: dotted none none;
+  border-color: #1f4068;
+  border-width: thick;
+  width: 30%;
+}
+h1{
+  color: #ffd31d;
+}
+h3{
+  color: #ff5200;
+}
+/* #career {
+  padding: 20px;
+} */
